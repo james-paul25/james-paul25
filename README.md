@@ -2,7 +2,7 @@
   
 <img src="https://capsule-render.vercel.app/api?type=waving&color=00FF41&height=120&section=header&text=SYSTEM%20BOOTING...&fontSize=28&fontColor=00FF41&animation=fadeIn&fontAlignY=38" />
   
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=00FF41&center=true&vCenter=true&width=700&lines=Hoy!+Ako+si+Jap+%2F+JP!+%F0%9F%91%BE;James+Paul+B.+Dacaldacal;Computer+Science+Student;Nag-code+pa+ko%2C+ayaw+disturb.;Bisaya+%26+Proud+%F0%9F%87%B5%F0%9F%87%AD" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=00FF41&center=true&vCenter=true&width=700&lines=Hoy!+Ako+si+Jap+%2F+JP!+%F0%9F%91%BE;James+Paul+B.+Dacaldacal;Computer+Science+Student;Nag-code+pa+ko%2C+mao+rato.;Bisaya+%26+Proud+%F0%9F%87%B5%F0%9F%87%AD" alt="Typing SVG" />
 
 
 <br/>
@@ -19,7 +19,7 @@
 $ cat profile.txt
 
   Name     : James Paul B. Dacaldacal
-  Role     : CS Student | Aspiring Software Engineer
+  Role     : CS Student
   School   : BISU Balilihan
 ```
 
