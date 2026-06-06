@@ -29,11 +29,12 @@ $ cat profile.txt
 
 > Gi-deploy na, bai. Click lang!
 
-<div align="center">
+<div align="left">
 
 [![PixZippr](https://img.shields.io/badge/PixZippr%20%E2%86%97-000000?style=for-the-badge&logo=vercel&logoColor=00FF41)](https://pixzippr.vercel.app)
 [![LaughShare](https://img.shields.io/badge/LaughShare%20%E2%86%97-000000?style=for-the-badge&logo=vercel&logoColor=00FF41)](https://laughshare.vercel.app)
 [![TruthLens](https://img.shields.io/badge/TruthLens%20%E2%86%97-000000?style=for-the-badge&logo=vercel&logoColor=00FF41)](https://truthlens-nine.vercel.app/)
+[![JP-Portfolio](https://img.shields.io/badge/JP-Portfolio%20%E2%86%97-000000?style=for-the-badge&logo=vercel&logoColor=00FF41)](https://jp-portfolio-ashen.vercel.app/)
 
 </div>
 
@@ -52,6 +53,7 @@ $ cat profile.txt
 **`// Database & Backend Services`**
 
 <img src="https://skillicons.dev/icons?i=mysql,firebase,supabase&theme=dark" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" width="48" height="48" />
 
 **`// Tools & Design`**
 
