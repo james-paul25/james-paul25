@@ -2,12 +2,12 @@
   
 <img src="https://capsule-render.vercel.app/api?type=waving&color=00FF41&height=120&section=header&text=SYSTEM%20BOOTING...&fontSize=28&fontColor=00FF41&animation=fadeIn&fontAlignY=38" />
   
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=00FF41&center=true&vCenter=true&width=700&lines=Hoy!+Ako+si+Jap+%2F+JP!+%F0%9F%91%BE;James+Paul+B.+Dacaldacal;Computer+Science+Student;Nag-code+pa+ko%2C+mao+rato.;Bisaya+%26+Proud+%F0%9F%87%B5%F0%9F%87%AD" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=00FF41&center=true&vCenter=true&width=700&lines=Hoy!+Ako+si+Jap+%2F+JP!+%F0%9F%91%BE;James+Paul+Dacaldacal;Backend+%26+Frontend+Developer;CS+Student+%7C+Tech+Enthusiast" alt="Typing SVG" />
 
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=Backend+%26+Frontend+Explorer...;Nag-deploy+na+sa+Vercel%2C+ikaw+pa...;git+commit+-m+%22naay+bug+pero+ship+na%22;Computer+Science+Student+%40+BISU;Building+things+that+actually+matter.)](https://github.com/james-paul25)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=Backend+%26+Frontend+Explorer...;Nag-deploy+na%2C+bai!;Building+cool+stuff+with+code;Always+learning%2C+always+growing" alt="Subtitles" )](https://github.com/james-paul25)
 
 </div>
 
@@ -18,23 +18,26 @@
 ```bash
 $ cat profile.txt
 
-  Name     : James Paul B. Dacaldacal
-  Role     : CS Student
-  School   : BISU Balilihan
+  Name       : James Paul B. Dacaldacal
+  Role       : CS Student & Developer
+  School     : BISU Balilihan
+  Status     : 🔥 Active & Learning
+  Location   : Bohol, Philippines
+  Passion    : Building innovative solutions with code
 ```
 
 ---
 
 ## `> PROJECTS --deployed --live`
 
-> Gi-deploy na, bai. Click lang!
+> Gi-deploy na, bai. Click lang! 🚀
 
 <div align="left">
 
-[![PixZippr](https://img.shields.io/badge/PixZippr%20%E2%86%97-000000?style=for-the-badge&logo=vercel&logoColor=00FF41)](https://pixzippr.vercel.app)
-[![LaughShare](https://img.shields.io/badge/LaughShare%20%E2%86%97-000000?style=for-the-badge&logo=vercel&logoColor=00FF41)](https://laughshare.vercel.app)
-[![TruthLens](https://img.shields.io/badge/TruthLens%20%E2%86%97-000000?style=for-the-badge&logo=vercel&logoColor=00FF41)](https://truthlens-nine.vercel.app/)
-[![JP-Portfolio](https://img.shields.io/badge/JP-Portfolio%20%E2%86%97-000000?style=for-the-badge&logo=vercel&logoColor=00FF41)](https://jp-portfolio-ashen.vercel.app/)
+[![PixZippr](https://img.shields.io/badge/PixZippr%20%E2%86%97-000000?style=for-the-badge&logo=vercel&logoColor=00FF41)](https://pixzippr.vercel.app) Image compression tool
+[![LaughShare](https://img.shields.io/badge/LaughShare%20%E2%86%97-000000?style=for-the-badge&logo=vercel&logoColor=00FF41)](https://laughshare.vercel.app) Meme sharing platform
+[![TruthLens](https://img.shields.io/badge/TruthLens%20%E2%86%97-000000?style=for-the-badge&logo=vercel&logoColor=00FF41)](https://truthlens-nine.vercel.app/) Fact-checking tool
+[![JP-Portfolio](https://img.shields.io/badge/JP-Portfolio%20%E2%86%97-000000?style=for-the-badge&logo=vercel&logoColor=00FF41)](https://jp-portfolio-ashen.vercel.app/) My portfolio
 
 </div>
 
@@ -90,7 +93,12 @@ $ cat profile.txt
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=james-paul25&theme=dark&date_format=j%20M%5B%20Y%5D&background=0D1117&border=00FF41&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=FFFFFF&stroke=00FF41&currStreakNum=FFFFFF&sideNums=FFFFFF)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=james-paul25&theme=dark&date_format=j%20M%5B%20Y%5D&background=0D1117&border=00FF41&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabel=00FF41)](https://github.com/DenverCoder1/github-readme-streak-stats)
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=james-paul25&show_icons=true&theme=dark&title_color=00FF41&text_color=00FF41&icon_color=00FF41&bg_color=0D1117&border_color=00FF41&count_private=true&hide_border=false)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=james-paul25&layout=compact&theme=dark&title_color=00FF41&text_color=00FF41&bg_color=0D1117&border_color=00FF41&hide_border=false)
+
 <br/>
 
 </div>
@@ -104,10 +112,24 @@ $ cat profile.txt
 [![Facebook](https://img.shields.io/badge/Facebook-0D0D0D?style=for-the-badge&logo=facebook&logoColor=00FF41)](https://www.facebook.com/friyayy404)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0D0D0D?style=for-the-badge&logo=linkedin&logoColor=00FF41)](https://www.linkedin.com/in/james-paul-b-dacaldacal-8843792a1)
 [![GitHub](https://img.shields.io/badge/GitHub-0D0D0D?style=for-the-badge&logo=github&logoColor=00FF41)](https://github.com/james-paul25)
+[![Email](https://img.shields.io/badge/Email-0D0D0D?style=for-the-badge&logo=gmail&logoColor=00FF41)](mailto:your-email@example.com)
 
 <br/>
 
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=james-paul25.james-paul25&color=00FF41)
+
+</div>
+
+---
+
+<div align="center">
+
+### 💡 Fun Facts About Me
+
+> 🚀 **Love building** innovative solutions that make a difference  
+> 📚 **Always learning** new technologies and frameworks  
+> 🤝 **Open to collaboration** on exciting projects  
+> 💪 **Never stop** grinding and improving my craft  
 
 </div>
 
