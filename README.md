@@ -2,7 +2,39 @@
 
 # @james-paul25
 
+<br/>
+
+![Java](https://img.shields.io/badge/JAVA-E76F00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/SPRING%20BOOT-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Supabase](https://img.shields.io/badge/SUPABASE-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Python](https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FASTAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Git](https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)
+![MySQL](https://img.shields.io/badge/MYSQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+<br/>
+
+![GitHub](https://img.shields.io/badge/GITHUB-PROFILE-181717?style=flat-square&logo=github&logoColor=white)
+![Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/james-paul25&query=$.public_repos&label=REPOS&logo=github&style=flat-square&color=181717&labelColor=555555)
+![Projects](https://img.shields.io/badge/PROJECTS-ACTIVE-8957E5?style=flat-square&logo=github&logoColor=white&labelColor=555555)
+
+![Profile views](https://komarev.com/ghpvc/?username=james-paul25&label=Profile%20views&color=blueviolet&style=flat-square)
+
+<br/>
+
+<a href="https://www.worldcubeassociation.org/persons/2023DACA01">
+  <img src="assets/rubiks-cube.svg" alt="3x3 Rubik's Cube" width="140" />
+</a>
+
+**5.88s** Unofficial Personal Best · [WCA Profile](https://www.worldcubeassociation.org/persons/2023DACA01)
+
 </div>
+
+---
 
 <table>
 <tr>
