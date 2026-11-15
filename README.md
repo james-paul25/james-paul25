@@ -4,7 +4,7 @@
 
 # @james-paul25
 
-<br/>
+<!-- <br/>
 
 ![Java](https://img.shields.io/badge/JAVA-E76F00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/SPRING%20BOOT-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
@@ -18,11 +18,11 @@
 ![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MYSQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-<br/>
+<br/> -->
 
-<a href="https://www.worldcubeassociation.org/persons/2023DACA01">
+<!-- <a href="https://www.worldcubeassociation.org/persons/2023DACA01">
   <img src="assets/rubiks-cube.svg" alt="3x3 Rubik's Cube" width="140" />
-</a>
+</a> -->
 
 **5.88s** Unofficial Personal Best · [WCA Profile](https://www.worldcubeassociation.org/persons/2023DACA01)
 
@@ -63,9 +63,6 @@
 <br/>
 
 ![Contribution graph](https://ghchart.rshah.org/james-paul25)
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=james-paul25&show_icons=true&theme=dark&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=james-paul25&layout=compact&theme=dark&hide_border=true)
 
 </div>
 
