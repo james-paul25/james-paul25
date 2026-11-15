@@ -12,14 +12,20 @@ DEFAULT_N = 5
 root = pathlib.Path(__file__).parent.resolve()
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
-HEADERS = {"Accept": "application/vnd.github+json"}
-if os.environ.get("GITHUB_TOKEN"):
-    HEADERS["Authorization"] = f"Bearer {os.environ['GITHUB_TOKEN']}"
+PUBLIC_TOKEN = os.environ.get("GITHUB_TOKEN")      # default Actions token: public data only
+PRIVATE_TOKEN = os.environ.get("PROFILE_TOKEN")    # your PAT: needed to see private activity
 
 
-def get(url: str, **params) -> dict | list:
+def headers(token: str | None) -> dict:
+    h = {"Accept": "application/vnd.github+json"}
+    if token:
+        h["Authorization"] = f"Bearer {token}"
+    return h
+
+
+def get(url: str, token: str | None = None, **params) -> dict | list:
     try:
-        r = requests.get(url, headers=HEADERS, params=params, timeout=20)
+        r = requests.get(url, headers=headers(token), params=params, timeout=20)
         r.raise_for_status()
         return r.json()
     except requests.exceptions.RequestException as e:
@@ -31,6 +37,7 @@ def fetch_prs() -> List[str]:
     """Latest pull requests you opened, on any repo."""
     data = get(
         "https://api.github.com/search/issues",
+        PUBLIC_TOKEN,
         q=f"author:{USERNAME} type:pr",
         sort="created",
         order="desc",
@@ -45,20 +52,33 @@ def fetch_prs() -> List[str]:
 
 
 def fetch_commits() -> List[str]:
-    """Latest commits pushed, from your public events."""
-    events = get(f"https://api.github.com/users/{USERNAME}/events/public", per_page=50)
+    """Latest pushes. Private repos are shown as a generic line, with no repo or message."""
+    token = PRIVATE_TOKEN or PUBLIC_TOKEN
+    events = get(f"https://api.github.com/users/{USERNAME}/events", token, per_page=100)
     lines = []
     for ev in events if isinstance(events, list) else []:
         if ev["type"] != "PushEvent":
             continue
-        repo = ev["repo"]["name"]
-        for c in reversed(ev["payload"].get("commits", [])):
-            msg = c["message"].splitlines()[0]
-            url = f"https://github.com/{repo}/commit/{c['sha']}"
-            lines.append(f"- [{msg}]({url}) in `{repo}`")
-            if len(lines) == DEFAULT_N:
-                return lines
-    return lines
+        date = ev["created_at"][:10]
+        if not ev.get("public", True):
+            lines.append(f"- Commit in a private repository - {date}")
+        else:
+            repo = ev["repo"]["name"]
+            payload = ev["payload"]
+            commits = payload.get("commits")
+            if commits:
+                items = [(c["sha"], c["message"].splitlines()[0]) for c in reversed(commits)]
+            else:  # newer API payloads only carry the head sha
+                head = payload.get("head")
+                info = get(f"https://api.github.com/repos/{repo}/commits/{head}", PUBLIC_TOKEN) if head else {}
+                msg = info.get("commit", {}).get("message", "").splitlines()[0] if info else ""
+                items = [(head, msg or "Push")] if head else []
+            for sha, msg in items:
+                url = f"https://github.com/{repo}/commit/{sha}"
+                lines.append(f"- [{msg}]({url}) in `{repo}` · {date}")
+        if len(lines) >= DEFAULT_N:
+            break
+    return lines[:DEFAULT_N]
 
 
 def replace_chunk(content: str, marker: str, chunk: str) -> str:

@@ -64,7 +64,11 @@ _No recent commits._
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=james-paul25&show_icons=true&theme=dark&hide_border=true&count_private=true)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=james-paul25&layout=compact&theme=dark&hide_border=true)
 
-<br/>
+</div>
+
+---
+
+<div align="center">
 
 ![GitHub](https://img.shields.io/badge/GITHUB-PROFILE-181717?style=flat-square&logo=github&logoColor=white)
 ![Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/james-paul25&query=$.public_repos&label=REPOS&logo=github&style=flat-square&color=181717&labelColor=555555)
