@@ -24,7 +24,7 @@
   <img src="assets/rubiks-cube.svg" alt="3x3 Rubik's Cube" width="140" />
 </a> -->
 
-**5.88s** Unofficial Personal Best · [WCA Profile](https://www.worldcubeassociation.org/persons/2023DACA01)
+**5.80s** Unofficial Personal Best · [WCA Profile](https://www.worldcubeassociation.org/persons/2023DACA01)
 
 </div>
 
