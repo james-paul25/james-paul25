@@ -37,11 +37,11 @@
 ### Recent pull requests
 
 <!-- prs start -->
+- [feat: add helper for encoding manual feedback](https://github.com/lea-labrador/VISITRAK_SYSTEM/pull/3) in `lea-labrador/VISITRAK_SYSTEM` (merged)
+- [Fix/concern](https://github.com/lea-labrador/VISITRAK_SYSTEM/pull/2) in `lea-labrador/VISITRAK_SYSTEM` (merged)
 - [payor bayot](https://github.com/james-paul25/ticket-booking-system/pull/2) in `james-paul25/ticket-booking-system` (merged)
 - [jp](https://github.com/lea-labrador/VISITRAK_SYSTEM/pull/1) in `lea-labrador/VISITRAK_SYSTEM` (closed)
 - [Rules2.0](https://github.com/james-paul25/truthlens-backend/pull/8) in `james-paul25/truthlens-backend` (merged)
-- [Mobile android](https://github.com/james-paul25/truthlens-frontend/pull/7) in `james-paul25/truthlens-frontend` (merged)
-- [Mult lang](https://github.com/james-paul25/truthlens-backend/pull/7) in `james-paul25/truthlens-backend` (merged)
 <!-- prs end -->
 
 </td>
