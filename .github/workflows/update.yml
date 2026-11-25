@@ -1,12 +1,17 @@
+
 name: Update README
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */8 * * *"
+
+  # Allow manual execution
   workflow_dispatch:
+
+  # Automatically update when pushing to main
   push:
-    branches: [main]
-    paths: [update.py]
+    branches:
+      - main
 
 permissions:
   contents: write
@@ -14,14 +19,18 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - run: pip install requests
+      - name: Install dependencies
+        run: pip install requests
 
       - name: Update README
         env:
@@ -33,6 +42,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
           git add README.md
-          git diff --cached --quiet || git commit -m "chore: update contributions"
-          git push
+
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update contributions"
+            git push
+          else
+            echo "README is already up to date."
+          fi

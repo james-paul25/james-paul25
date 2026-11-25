@@ -81,13 +81,33 @@ def fetch_commits() -> List[str]:
     return lines[:DEFAULT_N]
 
 
+# def replace_chunk(content: str, marker: str, chunk: str) -> str:
+#     """Replaces the text between <!-- marker start --> and <!-- marker end -->."""
+#     pattern = re.compile(f"<!-- {marker} start -->.*<!-- {marker} end -->", re.DOTALL)
+#     if not pattern.search(content):
+#         logging.error(f"Marker '{marker}' not found.")
+#         return content
+#     return pattern.sub(f"<!-- {marker} start -->\n{chunk}\n<!-- {marker} end -->", content)
+
+
 def replace_chunk(content: str, marker: str, chunk: str) -> str:
-    """Replaces the text between <!-- marker start --> and <!-- marker end -->."""
-    pattern = re.compile(f"<!-- {marker} start -->.*<!-- {marker} end -->", re.DOTALL)
+    """Replace the content between README markers."""
+
+    start = f"<!-- {marker} start -->"
+    end = f"<!-- {marker} end -->"
+
+    pattern = re.compile(
+        re.escape(start) + r".*?" + re.escape(end),
+        re.DOTALL
+    )
+
     if not pattern.search(content):
         logging.error(f"Marker '{marker}' not found.")
         return content
-    return pattern.sub(f"<!-- {marker} start -->\n{chunk}\n<!-- {marker} end -->", content)
+
+    replacement = f"{start}\n{chunk}\n{end}"
+
+    return pattern.sub(lambda _: replacement, content, count=1)
 
 
 def main() -> None:
