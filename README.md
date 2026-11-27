@@ -50,11 +50,11 @@
 ### Recent commits
 
 <!-- commits start -->
+- [Merge pull request #3 from lea-labrador/feat/concern](https://github.com/lea-labrador/VISITRAK_SYSTEM/commit/e94fd10a12181b67de0e108ffa7d7dad1cf63aad) in `lea-labrador/VISITRAK_SYSTEM` · 2026-11-25
 - [okayz](https://github.com/james-paul25/james-paul25/commit/7963c328be94b91f36729301798ed47737f8195d) in `james-paul25/james-paul25` · 2026-11-25
 - [feat: add helper for encoding manual feedback](https://github.com/lea-labrador/VISITRAK_SYSTEM/commit/44ada73acc70b0f8dc98ff4700be1caddd04c7e2) in `lea-labrador/VISITRAK_SYSTEM` · 2026-11-25
 - [fix: firebase json](https://github.com/lea-labrador/VISITRAK_SYSTEM/commit/ec2af7dd7de0a686d7ac6a9a4a7cda00d77fad34) in `lea-labrador/VISITRAK_SYSTEM` · 2026-11-25
 - [feat: add manual entry of feedback as requested](https://github.com/lea-labrador/VISITRAK_SYSTEM/commit/55b46dde148684b429f79f6f0436ba53ab75c7c0) in `lea-labrador/VISITRAK_SYSTEM` · 2026-11-25
-- [hays samoka, mao rato kaingnan wa na deploy, na mistype](https://github.com/lea-labrador/VISITRAK_SYSTEM/commit/a92b441e8848773d9229a24fa80ed4d4ff621664) in `lea-labrador/VISITRAK_SYSTEM` · 2026-11-25
 <!-- commits end -->
 
 </td>
